@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="noindex">
+
+  <title>Thank You</title>
+  <style>
+    :root {
+      --color-body: #e4ff1b;
+      --color-heading: #eef3db;
+      --color-base: #173c78;
+      --color-base2: #101932;
+      --color-brand: #dbfb5b;
+      --color-brand2: #d5ff2e;
+      --sidbar-width: 240px;
+      --font-base: "Bai Jamjuree", sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-base);
+      background-color: var(--color-base2);
+      color: var(--color-heading);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .thank-you-container {
+      background-color: var(--color-base);
+      padding: 3rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--color-brand);
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: var(--color-body);
+      margin-bottom: 2rem;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: var(--color-brand2);
+      color: var(--color-base2);
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: var(--color-brand);
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-container">
+    <h1>Thank You!</h1>
+    <p>Your message has been received. I’ll get back to you soon.</p>
+    <a href="/" class="button">Go Back Home</a>
+  </div>
+</body>
+</html>
